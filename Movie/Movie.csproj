@@ -107,6 +107,10 @@
     <Compile Include="Migrations\202201271636179_002.designer.cs">
       <DependentUpon>202201271636179_002.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202201280917237_003.cs" />
+    <Compile Include="Migrations\202201280917237_003.designer.cs">
+      <DependentUpon>202201280917237_003.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
     <Compile Include="Models\MovieModel.cs" />
@@ -131,6 +135,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202201271636179_002.resx">
       <DependentUpon>202201271636179_002.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202201280917237_003.resx">
+      <DependentUpon>202201280917237_003.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
